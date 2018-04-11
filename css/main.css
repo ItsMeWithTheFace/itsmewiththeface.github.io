@@ -1,0 +1,83 @@
+/* Fonts */
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Regular.ttf'),
+         url('../fonts/Poppins/Poppins-Italic.ttf'),
+         url('../fonts/Poppins/Poppins-Bold.ttf');
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Indie Flower';
+    src: url('../fonts/Indie_Flower/IndieFlower.ttf');
+    font-style: normal;
+    font-weight: 400;
+}
+
+.poppins-normal {
+    font-family: 'Poppins', sans-serif;
+}
+
+.indie-normal {
+    font-family: 'Indie Flower', cursive;
+}
+
+/* Tile Styles */
+
+#utsc {
+    background-color: #002A5C;
+    color: white;
+}
+
+#thomson {
+    background-color: #FF8000;
+    color: white;
+}
+
+#ministry {
+    background-color: #9EB184;
+    color: black;
+}
+
+/* Header/Footer */
+
+#footer {
+    left: 0;
+    bottom: 0;
+    height: 7vh;
+    vertical-align: middle;
+    width: 100%;
+    background-color: white;
+    color: rgb(195, 195, 195);
+    text-align: center;
+}
+
+/* Stuff */
+
+.section p {
+    display: table-cell;
+    font-size: 5vh;
+    width: 50vw;
+    max-width: 50vw;
+    min-width: 200px;
+    overflow: hidden;
+    padding: 0 20vw 0 20vw;
+    text-align: left;
+    vertical-align: middle;
+    width: 50vw;
+    word-wrap: break-word;
+    transition: all .7s ease-in-out;
+}
+
+/* Transitions */
+
+.section > .fp-tableCell p {
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+}
+
+.section.active > .fp-tableCell p {
+	opacity: 1;
+}
