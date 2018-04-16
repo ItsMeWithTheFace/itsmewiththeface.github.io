@@ -37,11 +37,36 @@
 }
 
 #ministry {
-    background-color: #9EB184;
-    color: black;
+    background-color: #123b32;
+    color: white;
+}
+
+#hobbies {
+    background-color: #ff0000;
+    color: white;
+}
+
+#contact {
+    background-color: violet;
+    color: white;
 }
 
 /* Header/Footer */
+
+#header {
+    text-align: right;
+    vertical-align: middle;
+    width: 100%;
+    position: fixed;
+    height: 50px;
+    top: 0;
+    z-index: 99;
+}
+
+#header a {
+    color: white;
+}
+
 
 #footer {
     left: 0;
@@ -71,6 +96,25 @@
     transition: all .7s ease-in-out;
 }
 
+.section ul {
+    text-align: left;
+    max-width: 50vw;
+    min-width: 200px;
+    padding: 0 20vw 0 20vw;
+}
+
+.section ul li {
+    display: inline;
+}
+
+.section ul li a {
+    vertical-align: middle;
+    font-size: 5vh;
+    display: table-cell;
+    padding: 8px;
+    color: white;
+}
+
 /* Transitions */
 
 .section > .fp-tableCell p {
@@ -81,3 +125,11 @@
 .section.active > .fp-tableCell p {
 	opacity: 1;
 }
+
+/* Vertical Navbar */
+
+#fp-nav.invert ul li a span, 
+.fp-slidesNav.invert ul li a span {
+    filter: invert(1);
+}
+
