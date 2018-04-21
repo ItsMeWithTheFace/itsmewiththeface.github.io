@@ -9,7 +9,7 @@ $(document).ready(function() {
             if ([1,7].indexOf(nextIndex) == -1) {
                 $('#fp-nav').addClass('invert');
             }
-            else{
+            else {
                 $('#fp-nav').removeClass('invert');
             }    
         },
