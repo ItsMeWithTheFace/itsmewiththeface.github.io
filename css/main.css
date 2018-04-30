@@ -109,7 +109,7 @@
 
 .section ul li a {
     vertical-align: middle;
-    font-size: 4vh;
+    font-size: 3vmin;
     display: table-cell;
     padding: 8px;
     color: white;
