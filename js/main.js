@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $('#fullpage').fullpage({
         scrollingSpeed: 900,
-        navigation: true,
+        autoScrolling: false,
 
         onLeave: function(index, nextIndex, direction) {
             // if we're on the white pages (top and bottom panels)
