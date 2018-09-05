@@ -27,23 +27,28 @@
 /* Tile Styles */
 
 #utsc {
-    background-color: #002A5C;
+    background-color: #001E42;
     color: white;
+    text-align: right;
+    background-image: url('../assets/uoft-logo.svg');
 }
 
 #thomson {
-    background-color: #FF8000;
+    background-color: #FF5600;
     color: white;
+    background-image: url('../assets/tr-logo.svg');
 }
 
 #ministry {
     background-color: #123b32;
     color: white;
+    background-image: url('../assets/ministry-logo.svg');
 }
 
 #hobbies {
-    background-color: #ff0000;
+    background-color: #c51000;
     color: white;
+    background-image: url('../assets/mario-kart.svg');
 }
 
 #contact {
@@ -67,7 +72,6 @@
     color: white;
 }
 
-
 #footer {
     left: 0;
     bottom: 0;
@@ -81,10 +85,20 @@
 
 /* Stuff */
 
+.parallax {
+    /* Set a specific height */
+    min-height: 7vh; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .section p {
     display: table-cell;
     font-size: 5vmin;
-    width: 50vw;
     max-width: 50vw;
     min-width: 200px;
     overflow: hidden;
