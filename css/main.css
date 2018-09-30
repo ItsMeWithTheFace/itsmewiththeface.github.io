@@ -126,8 +126,9 @@ a {
 }
 
 .section ul li a {
+    text-decoration: none;
     vertical-align: middle;
-    font-size: 3vmin;
+    font-size: 5vmin;
     display: table-cell;
     padding: 8px;
     color: white;
