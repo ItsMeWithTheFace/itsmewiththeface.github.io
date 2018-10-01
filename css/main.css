@@ -52,8 +52,9 @@
 }
 
 #contact {
-    background-color: violet;
+    background-color: #a556a5;
     color: white;
+    background-image: url('../assets/airplane.svg');
 }
 
 /* Header/Footer */
