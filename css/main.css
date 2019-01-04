@@ -33,6 +33,11 @@
     background-image: url('../assets/uoft-logo.svg');
 }
 
+#joatspace {
+    color: white;
+    background-image: linear-gradient(45deg, rgb(51, 180, 184), rgb(56, 231, 146));
+}
+
 #thomson {
     background-color: #FF5600;
     color: white;
