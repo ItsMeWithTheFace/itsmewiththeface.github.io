@@ -22,7 +22,6 @@ p a {
 .root {
     display: flex;
     flex-direction: row;
-    align-content: stretch;
     height: 100%;
     width: 100%;
 }
@@ -31,7 +30,7 @@ p a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: 3vh;
+    font-size: 2vh;
     height: 100%;
     width: 100%;
     padding: 0 10%;
@@ -44,15 +43,15 @@ p a {
 }
 
 .contact {
-    width: 25%;
-    font-size: 3vh;
     text-align: right;
-    padding-right: 4%;
-    font-size: 4vh;
+    padding-top: 35vh;
+    padding-right: 5%;
+    display: inline;
 }
 
 .contact ul li a {
+    font-size: 2vh;
     text-decoration: none;
     color: black;
-    margin: 5% 0;
+    margin: 1.5vh 0;
 }
