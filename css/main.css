@@ -3,55 +3,10 @@
     font-family: 'ABeeZee', sans-serif;
 }
 
-/* Overrides */
-body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-}
-
-ul {
-    list-style: none;
-}
-
-p a {
-    color: black;
-}
-
-/* Styles */
-.root {
-    display: flex;
-    flex-direction: row;
-    height: 100%;
-    width: 100%;
-}
-
 .content {
+    height: 100vh;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    font-size: 2vh;
-    height: 100%;
-    width: 100%;
-    padding: 0 10%;
-    text-align: left;
-}
-
-.content p a {
-    text-decoration: none;
-    font-weight: bolder;
-}
-
-.contact {
-    text-align: right;
-    padding-top: 35vh;
-    padding-right: 5%;
-    display: inline;
-}
-
-.contact ul li a {
-    font-size: 2vh;
-    text-decoration: none;
-    color: black;
-    margin: 1.5vh 0;
+    align-items: center;
+    color: ivory;
 }
